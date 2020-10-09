@@ -1,0 +1,35 @@
+{
+   "about":{
+       "detail":"My name is Abdullah Al Nahian. I have a little bit knowledge about programming and electronics.",
+       "skills":["C++","Javascript","Python","React","Arduino"],
+       "image":"./images/about.svg"
+   },
+   "works":[
+       {
+           "title":"Todo List",
+           "text":"Pure javascript todo list with alarm.",
+           "link":"https://naahian.github.io/ToDO-List/"
+       },
+        {
+            "title":"Js Calculator",
+            "text":"Pure javascript web Calculator.",
+            "link":"https://naahian.github.io/Web-Calculator/"
+        }
+
+       
+    ],
+    "social":[
+        {
+        "image":"images/facebook.svg",
+        "link":"https://www.facebook.com/abdullahal.nahian.18/"
+        },
+        {
+            "image":"images/linkedin.svg",
+            "link":"https://www.linkedin.com/in/abdullah-al-nahian-3286841b1/"
+        },
+        {
+            "image":"images/github.svg",
+            "link":"https://github.com/Naahian"
+        }
+    ]
+}

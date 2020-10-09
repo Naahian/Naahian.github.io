@@ -31,7 +31,7 @@ h1{text-shadow: 0 1px 10px #223;}
   animation: load .7s ease;
  
 }
-.Hero h1,p{ animation: load .8s ease-in-out;}
+.Hero h1 p{ animation: load .8s ease-in-out;}
 
 .Works{
   width: 100%;

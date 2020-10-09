@@ -1,34 +1,22 @@
 import React, { Component } from 'react';
 import TextBox from './comps/TextBox.js'
 import './pages.css';
-
+import {about} from './data.json'
 
 
 class About extends Component{
-
-  data={ 
-    title:"About Me",
-    texts:"My name is Abdullah Al Nahian. I have a little bit knowledge about programming and electronics.",
-  }
-
   
   render(){
       
     return (
       <div className="About">
-        <TextBox title={this.data.title} titleColor="#f06292" align="left">
+        <TextBox title="About Me" titleColor="#f06292" align="left">
           
-          {this.data.texts}<br/>
-          
-          My language skills:         
-          <li>C++</li>
-          <li>Javascript</li>
-          <li>Python</li>
-          <li>React</li>
-          <li>Arduino</li>  
+          {about.detail} My language skills:  <br/>       
+          {about.skills.map((elm)=>{return <li>{elm}</li>})}
 
         </TextBox>
-        <img src="./images/about.svg" width="300px" height="300px"/>
+        <img src={about.image} width="300px" height="300px"/>
 
       </div>
     );
